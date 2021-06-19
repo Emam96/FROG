@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Pacifico&display=swap");
+
+.main {
+  font-size: 1.5pc;
+  font-weight: bold;
+  /* text-shadow: 0px 6px 4px #0000003d; */
+}
+
+header {
+  background-color: #01937c;
+  height: 5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: Pacifico;
+  font-size: 4pc;
+  font-weight: bolder;
+  color: hsl(106, 70%, 46%);
+  text-shadow: 0px 5px 5px #0000003d;
+  padding: 0.5rem;
+}
+
+.brie {
+  font-family: Nunito;
+  font-size: 2pc;
+  text-align: center;
+  margin: 5rem;
+}
+
+.theShow {
+  display: flex;
+  flex-direction: row;
+}
+
+.frogContainer1 {
+  margin: 15rem 6rem;
+  font-family: Nunito;
+  transition: 0.15s;
+}
+
+.frogContainer1:hover {
+  opacity: 0;
+}
+
+.frogContainer2 {
+  margin: 10rem 0rem;
+  font-family: Nunito;
+  transition: 0.15s;
+}
+
+.frogContainer2 img {
+  width: 244px;
+  height: 100px;
+}
+
+.frogContainer3 {
+  margin: 7rem 0rem;
+  font-family: Nunito;
+  transition: 0.15s;
+}
+
+.frogContainer3 img {
+  width: 335px;
+  height: 216px;
+}
+
+.frogContainer4 {
+  margin: 7rem 0rem;
+  font-family: Nunito;
+  transition: 0.15s;
+}
+
+.frogContainer4 img {
+  width: 350px;
+  height: 190px;
+}
+
+.frogContainer5 {
+  margin: 15rem 2rem;
+  font-family: Nunito;
+  transition: 0.15s;
+}
+
+footer {
+  background-color: #01937c;
+  height: 5rem;
+  text-align: center;
+  margin-top: 7rem;
+  padding: 15px;
+  font-family: Nunito;
+  color: #50fa1c;
+}
+
+.paragraph {
+  font-family: Nunito;
+  font-size: 2pc;
+  text-align: center;
+}
+
+footer a {
+  font-size: 1.3pc;
+  color: #50fa1c;
+  text-decoration: none;
+  padding: 1.5rem;
+  /* position: relative; */
+  /* top: 10rem; */
+}
