@@ -32,6 +32,8 @@ header h1 {
 .theShow {
   display: flex;
   flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .frogContainer2:hover ~ div {opacity: 0;} */
