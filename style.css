@@ -5,6 +5,7 @@
   font-size: 1.5pc;
   font-weight: bold;
   /* text-shadow: 0px 6px 4px #0000003d; */
+  user-select: none;
 }
 
 header {
@@ -20,6 +21,7 @@ header h1 {
   color: hsl(106, 70%, 46%);
   text-shadow: 0px 5px 5px #0000003d;
   padding: 0.5rem;
+  user-select: none;
 }
 
 .brie {
@@ -34,6 +36,7 @@ header h1 {
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+  user-select: none;
 }
 
 /* .frogContainer2:hover ~ div {opacity: 0;} */
@@ -116,6 +119,7 @@ footer {
   padding: 15px;
   font-family: Nunito;
   color: hsl(106, 70%, 46%);
+  user-select: none;
 }
 
 .paragraph {
@@ -132,6 +136,7 @@ footer a {
   position: relative;
   top: 5rem;
   transition: 0.15s;
+  user-select: none;
 }
 
 a:hover {
